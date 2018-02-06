@@ -15,3 +15,10 @@ def square(value):
     print(new_value)
 
 square(7)
+
+square(float(input("Enter a value to be squared:")))
+#rectangle area
+def rectangle_area(length, width):
+    area= length*width
+    return area
+print(rectangle_area(8,2))
